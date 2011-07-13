@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c0332600-513c-47f6-8d34-875be5c5ef05" name="admin@QA-PC 2011-07-13 12:14:40" runUser="QA-PC\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7637512d-7cbd-4d67-9f39-cc9f620de904">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="admin_QA-PC 2011-07-13 12_14_40">
+      <DeploymentItem filename="E:\Harish\Personal\Project\RepositoryPattern\Reference\StructureMap.dll" />
+      <DeploymentItem filename="E:\Harish\Personal\Project\RepositoryPattern\BussinessLayer\bin\Debug\BussinessLayer.dll" />
+      <DeploymentItem filename="E:\Harish\Personal\Project\RepositoryPattern\DataAccessLayer\bin\Debug\DataAccessLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-13T12:14:40.3219065+05:30" queuing="2011-07-13T12:14:41.6909848+05:30" start="2011-07-13T12:14:41.9620003+05:30" finish="2011-07-13T12:14:45.2301872+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetAll" storage="e:\harish\personal\project\repositorypattern\testcase\bin\debug\testcase.dll" id="5ea52863-6514-67e6-e01c-b762becdaa2d">
+      <Execution id="fcdb7605-2562-446a-b69b-8312a7e934c3" />
+      <TestMethod codeBase="E:/Harish/Personal/Project/RepositoryPattern/TestCase/bin/Debug/TestCase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCase.Department, TestCase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll" />
+    </UnitTest>
+    <UnitTest name="Save" storage="e:\harish\personal\project\repositorypattern\testcase\bin\debug\testcase.dll" id="34c9eb3f-fba5-552c-11a3-9ad7254f99bc">
+      <Execution id="54ac3789-f377-4236-97d1-e9581593b42e" />
+      <TestMethod codeBase="E:/Harish/Personal/Project/RepositoryPattern/TestCase/bin/Debug/TestCase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCase.Department, TestCase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Save" />
+    </UnitTest>
+    <UnitTest name="GetById" storage="e:\harish\personal\project\repositorypattern\testcase\bin\debug\testcase.dll" id="220bd03a-93a6-1b93-a5f1-96953a84e428">
+      <Execution id="e082a328-d767-4ccd-b245-c32cdcf868c3" />
+      <TestMethod codeBase="E:/Harish/Personal/Project/RepositoryPattern/TestCase/bin/Debug/TestCase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCase.Department, TestCase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetById" />
+    </UnitTest>
+    <UnitTest name="Remove" storage="e:\harish\personal\project\repositorypattern\testcase\bin\debug\testcase.dll" id="bc9d694a-4191-2bfc-5f36-b64a5302c523">
+      <Execution id="aa8e6214-3c02-4306-912c-6230c9357dd0" />
+      <TestMethod codeBase="E:/Harish/Personal/Project/RepositoryPattern/TestCase/bin/Debug/TestCase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestCase.Department, TestCase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Remove" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="220bd03a-93a6-1b93-a5f1-96953a84e428" executionId="e082a328-d767-4ccd-b245-c32cdcf868c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34c9eb3f-fba5-552c-11a3-9ad7254f99bc" executionId="54ac3789-f377-4236-97d1-e9581593b42e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ea52863-6514-67e6-e01c-b762becdaa2d" executionId="fcdb7605-2562-446a-b69b-8312a7e934c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc9d694a-4191-2bfc-5f36-b64a5302c523" executionId="aa8e6214-3c02-4306-912c-6230c9357dd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e082a328-d767-4ccd-b245-c32cdcf868c3" testId="220bd03a-93a6-1b93-a5f1-96953a84e428" testName="GetById" computerName="QA-PC" duration="00:00:00.4904967" startTime="2011-07-13T12:14:42.2380161+05:30" endTime="2011-07-13T12:14:43.4330845+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e082a328-d767-4ccd-b245-c32cdcf868c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="54ac3789-f377-4236-97d1-e9581593b42e" testId="34c9eb3f-fba5-552c-11a3-9ad7254f99bc" testName="Save" computerName="QA-PC" duration="00:00:00.0629805" startTime="2011-07-13T12:14:43.4400849+05:30" endTime="2011-07-13T12:14:43.5330902+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54ac3789-f377-4236-97d1-e9581593b42e">
+      <Output>
+        <StdOut>Record has been saved</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fcdb7605-2562-446a-b69b-8312a7e934c3" testId="5ea52863-6514-67e6-e01c-b762becdaa2d" testName="GetAll" computerName="QA-PC" duration="00:00:00.0127971" startTime="2011-07-13T12:14:43.5660921+05:30" endTime="2011-07-13T12:14:43.5870933+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcdb7605-2562-446a-b69b-8312a7e934c3">
+      <Output>
+        <StdOut>object is null</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="aa8e6214-3c02-4306-912c-6230c9357dd0" testId="bc9d694a-4191-2bfc-5f36-b64a5302c523" testName="Remove" computerName="QA-PC" duration="00:00:00.0142707" startTime="2011-07-13T12:14:43.6100946+05:30" endTime="2011-07-13T12:14:43.6360961+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa8e6214-3c02-4306-912c-6230c9357dd0">
+    </UnitTestResult>
+  </Results>
+</TestRun>
